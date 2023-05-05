@@ -1,5 +1,0 @@
-{
-  "content": ["**/*.html"],
-  "css": ["./assets/bootstrap/bootstrap.css", "./assets/style.css"]
-}
-
