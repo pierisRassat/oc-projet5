@@ -186,15 +186,16 @@ input[type="radio"] {
 .lightbox-modal {
   display: flex;
   flex-flow: row nowrap;
+  justify-content: center;
   padding: 1em;
-  width: auto;
-  height: 100%;
-  max-width: calc(80vw - 1rem);
-  max-height: calc(100vh - 1rem);
+  width: 100%;
+  height: auto;
 }
 .lightbox-modal img {
   width: auto;
   height: 100%;
+  max-width: 80vw;
+  max-height: 100vh;
   border: 15px solid #fff;
   border-radius: 10px;
 }

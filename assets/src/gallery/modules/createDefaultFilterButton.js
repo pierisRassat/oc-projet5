@@ -1,5 +1,7 @@
 export default function createDefaultFilterButton() {
   const filterContainer = document.querySelector('.filter-container')
+  const fieldset = document.createElement('fieldset')
+  const legend = document.createElement('legend')
 
   const label = document.createElement('label')
   label.htmlFor = 'filter-all'
@@ -12,8 +14,10 @@ export default function createDefaultFilterButton() {
   input.id = 'filter-all'
   input.value = 'Tous'
 
-  filterContainer.appendChild(label)
-  filterContainer.appendChild(input)
+  fieldset.appendChild(legend)
+  fieldset.appendChild(label)
+  fieldset.appendChild(input)
+  filterContainer.appendChild(fieldset)
 }
 
 
