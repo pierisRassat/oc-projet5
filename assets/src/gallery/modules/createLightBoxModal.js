@@ -27,7 +27,7 @@ export default function createLightBoxModal(url) {
   document.body.appendChild(lightBoxWrapper)
 
   lightBoxWrapper.addEventListener('click', (event) => {
-    if (event.target === lightBoxWrapper) {
+    if (event.target === lightBoxModal || event.target === lightBoxWrapper) {
       lightBoxWrapper.remove()
     }
   })
