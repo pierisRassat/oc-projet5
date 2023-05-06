@@ -195,7 +195,7 @@ input[type="radio"] {
   width: auto;
   height: 100%;
   max-width: 80vw;
-  max-height: 100vh;
+  max-height: 95vh;
   border: 15px solid #fff;
   border-radius: 10px;
 }
